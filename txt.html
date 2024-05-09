@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<h2>Enter your details</h2><hr>
+
+<body>
+
+    <form action="Backend.java">
+
+        <!-- div and br are simillar now we should avoid br  -->
+
+        <div>Name: <input type="text" name="myname"></div><br>
+
+        <!-- name is a text type and name is the that name present in backend if we use my name in backend now we should use name as myname it identify and sends the name in backend  -->
+
+        <label for="roll"></label>
+
+        <div> Roll no: <input type="number" name="rollno" id="roll"></div><br>
+
+        <!-- label is used to select and highlight the input -->
+
+        <!-- label name and id should be same -->
+
+        <!-- in rollno we only use digits and e  -->
+
+        <label for="Email"></label>
+
+        <div> Email: <input type="email" name="email" id="Emali"> </div><br>
+
+        <div>Date of birth: <input type="date" name="date"></div><br>
+
+        <div>Are you elgiable ? <input type="checkbox" name="elgiable"></div> 
+
+        <!-- at the end checked is used to take bydefault   -->
+
+        <!-- bydefault it will be checked  -->
+
+        
+
+        <br>
+
+        <div>Gender: Male <input type="radio" name="gender" id=""> Female <input type="radio" name="gender"> other
+
+            <input type="radio" name="gender"><br>
+
+            <br>
+
+            select year <select name="year">
+
+            <option value="1st">1st</option>
+
+            <option value="2nd">2nd</option>
+
+            <option value="3rd">3rd</option>
+
+            <option value="4th">4th</option></select>
+
+            <br>
+
+            select your favourate colour: <input type="color" name="colour"><br><br>
+
+            
+
+            <!-- textarea is used if we want to take feedback or information -->
+
+            <!-- we can resize the box by changing columns and rows value or just edit in website -->
+
+       Wrirt about yourself:<br><textarea name="textarea" cols="30" rows="10"></textarea><br><br>
+
+                <!-- selected is used to select by default -->
+
+                <div> <label for="Reset"></div><br>
+
+       
+
+                <div>Resetnow: <input type="reset" value="Reset" id="Reset"></label> </div><br>
+
+                Submit: <input type="submit" value="Submit now">
+
+                <!-- name and value should be used same how it is used in backend  -->
+
+            </select>
+
+    </form>
+
+</body>
+
+</html>
